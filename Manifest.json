@@ -13,7 +13,7 @@
   ],
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "persistent": true
   },
   "commands": {
     "refresh_url": {
