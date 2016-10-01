@@ -1,5 +1,4 @@
-function updateKG() {
-  var x = getElementById('lb').value;
-  var y = 2.2046226218 * x;
+function updateKG(val) {
+  var y = 2.2046226218 * val;
   document.getElementById("kg").value = y;
 }

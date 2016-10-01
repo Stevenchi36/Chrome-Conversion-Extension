@@ -1,9 +1,11 @@
 <body>
-  <script src="popup.js"></script>
+  <head>
+    <script src="popup.js"></script>
+  </head>
   <div class="inputbox">
     <span>lb:</span>
-    <input type="number" class="lbinput" id="lb" onChange="updateKG()"</input>
+    <input type="number" class="lbinput" id="lb" onChange="updateKG(this.value)" onclick="this.select()"></input>
     <span>kg:</span>
-    <input type="number" class="kginput" id="kg" onChange="updateLB()"</input>
+    <input type="number" class="kginput" id="kg" onChange="updateLB(this.value)" onclick="this.select()"></input>
   </div>
 </body>
