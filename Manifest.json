@@ -1,28 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Test Extension",
-  "description": "Press Alt+R to reload any given URL.",
-  "version": "1.1",
+  "description": "Enter numbers to convert to lb or kg",
+  "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "Click to reload URL"
-  },
-  "permissions": [
-    "tabs","storage"
-  ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": true
-  },
-  "commands": {
-    "refresh_url": {
-      "suggested_key": {
-        "default": "Alt+R",
-        "mac": "Alt+R"
-      },
-      "description": "Refresh the defined url"
-    }
-  },
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+    "default_title": "lb <-> kg Convesion"
+  }
 }
