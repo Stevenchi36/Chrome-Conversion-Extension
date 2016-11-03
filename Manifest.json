@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Test Extension",
+  "name": "Pound and Kilogram Converter",
   "description": "Enter numbers to convert to lb or kg",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "lb <-> kg Convesion"
+    "default_title": "Pound <-> Kilogram Convesion"
   }
 }
